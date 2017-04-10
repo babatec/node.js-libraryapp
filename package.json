@@ -1,0 +1,41 @@
+{
+  "name": "node.js-libraryapp",
+  "version": "1.0.0",
+  "description": "This is a super simple library application built with node.js. I read a lot of books, so it might as well be cool to develop a simple app for it. The app will be used to keep track of authors and books and how the two tie together just like in a real library. Have a look, enjoy.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambabagana/node.js-libraryapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iambabagana/node.js-libraryapp/issues"
+  },
+  "homepage": "https://github.com/iambabagana/node.js-libraryapp#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "jade": "^1.11.0",
+    "jscs": "^3.0.7",
+    "jshint-stylish": "^2.2.1",
+    "nodemon": "^1.11.0",
+    "wiredep": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}
