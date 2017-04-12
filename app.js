@@ -1,6 +1,6 @@
 var express = require('express');
-
 var app = express();
+var sql = require('mssql');
 
 //var port = 3000;
 var port = process.env.PORT || 3000;
@@ -19,8 +19,10 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 //Require the bookRouter we exported to you
 var bookRouter = require('./src/routes/bookRoutes')(nav);
+var adminRouter = require('./src/routes/adminRoutes')(nav);
 
 app.use('/books', bookRouter);
+app.use('/admin', adminRouter);
 
 app.get('/', function(req, res) {
     res.render('index', {

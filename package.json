@@ -27,6 +27,8 @@
     "jade": "^1.11.0",
     "jscs": "^3.0.7",
     "jshint-stylish": "^2.2.1",
+    "mongodb": "^2.2.25",
+    "mssql": "^4.0.1",
     "nodemon": "^1.11.0",
     "wiredep": "^4.0.0"
   },
